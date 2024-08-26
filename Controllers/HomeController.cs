@@ -29,13 +29,12 @@ public class HomeController : Controller
     public IActionResult Comenzar(string username, int dificultad, int categoria) 
     {
         Juego.CargarPartida(username, dificultad, categoria); 
-        return View("Jugar"); 
-        /* Recibe el username, dificultad y categoría elegidas por el usuario,
-         invoca al método CargarPartida de la clase Juego y, siempre y cuando lleguen preguntas de la base de datos,
-          redirige el sitio al ActionResult Jugar. En caso de elegir una configuración sin preguntas en base de datos, 
-          debe redirigir nuevamente al ActionResult ConfigurarJuego. 
-          A CHECKEAR
-           */ 
+        var preguntas = Juego.ObtenerProximaPregunta();
+        if (preguntas == null || preguntas.Count == 0)
+        {
+            return RedirectToAction("ConfigurarJuego");
+        }
+        return RedirectToAction("Jugar");
     } 
 
     public IActionResult Jugar() 
