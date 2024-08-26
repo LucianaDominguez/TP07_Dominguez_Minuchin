@@ -1,6 +1,6 @@
 public class Dificultad
 {
-    public static int IdDificultad {get; private set;}
-    public static string Nombre {get; private set;}
+    public int IdDificultad {get; private set;}
+    public  string Nombre {get; private set;}
 
 }
