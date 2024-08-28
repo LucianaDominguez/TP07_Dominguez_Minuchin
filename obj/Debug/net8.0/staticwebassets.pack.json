@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\arte.png",
+      "PackagePath": "staticwebassets\\img\\arte.png"
+    },
+    {
       "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoVictoria.jpg",
       "PackagePath": "staticwebassets\\img\\fondoVictoria.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D/J3XFkzlBloHz4unLjZ4lBWU6RyfF5doaSdMGpqZDQ=",
+  "Hash": "UHYGlyAc0OtOBd0klpNdDXg9WQ0v1/Z0sYnJfwOtihw=",
   "Source": "TP07_Dominguez_Minuchin",
   "BasePath": "_content/TP07_Dominguez_Minuchin",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\arte.png",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "img/arte.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\arte.png"
     },
     {
       "Identity": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoVictoria.jpg",
