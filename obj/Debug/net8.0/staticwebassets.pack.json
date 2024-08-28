@@ -13,8 +13,28 @@
       "PackagePath": "staticwebassets\\img\\arte.png"
     },
     {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\ciencia.jpg",
+      "PackagePath": "staticwebassets\\img\\ciencia.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\deportes.jpg",
+      "PackagePath": "staticwebassets\\img\\deportes.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\entretenimiento.jpg",
+      "PackagePath": "staticwebassets\\img\\entretenimiento.jpg"
+    },
+    {
       "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoVictoria.jpg",
       "PackagePath": "staticwebassets\\img\\fondoVictoria.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\geo.jpg",
+      "PackagePath": "staticwebassets\\img\\geo.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\historia.jpg",
+      "PackagePath": "staticwebassets\\img\\historia.jpg"
     },
     {
       "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\js\\site.js",
