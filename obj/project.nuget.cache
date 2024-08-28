@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p1/5UG2oo788n07IC6+USPcYAIY2OBAPdnmCQd9s34bCqn9hFa+PjIj7CaML8zm2snanZLWpEDoCtGRCWvwMvQ==",
+  "dgSpecHash": "NiXdrg5h6RZkgoVBca5FRQ0eP2ZeAMRzAos23a8XJv3Z8+xQ2+5unl+dLFr1SMFHREE6y3rp5YiXgEt7xRLJfA==",
   "success": true,
-  "projectFilePath": "Z:\\2024\\TP07_Dominguez_Minuchin\\TP07_Dominguez_Minuchin.csproj",
+  "projectFilePath": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\TP07_Dominguez_Minuchin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48039458\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\48039458\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

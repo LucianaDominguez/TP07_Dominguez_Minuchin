@@ -16,45 +16,46 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
-    }  
+    }
 
-    public  IActionResult ConfigurarJuego() 
-    { 
-       Juego.InicializarJuego();  
-        ViewBag.DatosCategorias = BD.ObtenerCategorias(); 
-        ViewBag.DatosDificultades = BD.ObtenerDificultades(); 
-        return View();
-    }  
-
-    public IActionResult Comenzar(string username, int dificultad, int categoria) 
+    public IActionResult ConfigurarJuego()
     {
-        Juego.CargarPartida(username, dificultad, categoria); 
-        var preguntas = Juego.ObtenerProximaPregunta();
-        if (preguntas == null || preguntas.Count == 0)
+        Juego.InicializarJuego();
+        ViewBag.DatosCategorias = BD.ObtenerCategorias();
+        ViewBag.DatosDificultades = BD.ObtenerDificultades();
+        return View();
+    }
+
+    public IActionResult Comenzar(string username, int dificultad, int categoria)
+    {
+        Juego.CargarPartida(username, dificultad, categoria);
+        if (BD.ObtenerPreguntas(dificultad, categoria) == null)
         {
             return RedirectToAction("ConfigurarJuego");
         }
         return RedirectToAction("Jugar");
-    } 
+    }
 
-    public IActionResult Jugar() 
+    public IActionResult Jugar()
     {
-        ViewBag.DatosPreguntaActual = Juego.ObtenerProximaPregunta();  
-        if (DatosPreguntaActual.Count == 0 )
+        ViewBag.DatosPreguntaActual = Juego.ObtenerProximaPregunta();
+        int nuevoIdPreg = ViewBag.DatosPreguntaActual.idPregunta;
+        if (ViewBag.DatosPreguntaActual.Count == 0)
         {
-            return View("Fin")
-        } 
-        else 
+            return View("Fin");
+        }
+        else
         {
-            ViewBag.DatosRespuestas = Juego.ObtenerProximasRespuestas(int IdPregunta);  
-            return View("Juego")
+            ViewBag.DatosRespuestas = Juego.ObtenerProximasRespuestas(nuevoIdPreg);
+            return View("Juego");
         }
 
-    } 
+    }
 
-    public [HttpPost] IActionResult VerificarRespuesta(int idPregunta, int idRespuesta) 
+    [HttpPost]
+    public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
     {
-        ViewBag.Respuesta = Juego.VerificarRespuesta();   
+        ViewBag.Respuesta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
         return View("Respuesta");
 
     }
