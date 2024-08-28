@@ -11,9 +11,10 @@ public class BD
 DataBase=PreguntadORT;Trusted_Connection=True;";
     public static List<Categoria> ObtenerCategorias()
     {
+        string sql = "SELECT * FROM Categorias";
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Categorias";
+            
             _ListaCategorias = db.Query<Categoria>(sql).ToList();
         }
 
@@ -21,9 +22,10 @@ DataBase=PreguntadORT;Trusted_Connection=True;";
     }
     public static List<Dificultad> ObtenerDificultades()
     {
+        string sql = "SELECT * FROM Dificultades";
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Dificultades";
+            
             _ListaDificultades = db.Query<Dificultad>(sql).ToList();
         }
 
