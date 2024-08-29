@@ -9,95 +9,46 @@ html {
   }
 }
 
-body {
-  margin: 10px;
-  padding: 10px;
-}
-
-
 footer {
-  margin-top: 10px;
-  padding: 10px;
+  /*margin-top: 10px;
+  padding: 10px;*/
   background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
+  /*border-top: 1px solid #e9ecef;*/
 }
 
 .index{
-  background-image: url(../img/arte.png);
+  background-image: url(../img/fondoIndex.png);
   min-height: 100vh;
   background-size: cover;
 }
 
-/* From Uiverse.io by Creatlydev */ 
-.button {
-  cursor: pointer;
-  border: none;
-  background: #7808d0;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-  display: grid;
-  place-content: center;
-  transition:
-    background 300ms,
-    transform 200ms;
-  font-weight: 600;
-}
-
-.button__text {
-  position: absolute;
-  inset: 0;
-  animation: text-rotation 8s linear infinite;
-
-  > span {
-    position: absolute;
-    transform: rotate(calc(19deg * var(--index)));
-    inset: 7px;
-  }
-}
-
-.button__circle {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  background: #fff;
-  color: #7808d0;
-  border-radius: 50%;
+.btn {
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-
-.button__icon--copy {
-  position: absolute;
-  transform: translate(-150%, 150%);
-}
-
-.button:hover {
-  background: #000;
-  transform: scale(1.05);
-}
-
-.button:hover .button__icon {
+  align-items: center;
+  width: 170px;
+  height: 60px;
+  font-size: 18px;
+  background: #fff;
+  border: none;
+  border-radius: 50px;
   color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
-.button:hover .button__icon:first-child {
-  transition: transform 0.3s ease-in-out;
-  transform: translate(150%, -150%);
+.btn:hover {
+  box-shadow: inset 0 0 0 4px #ef476f, 
+              inset 0 0 0 8px #ffd166, 
+              inset 0 0 0 12px #06d6a0,
+              inset 0 0 0 16px #118ab2;
+  background: #073b4c;
+  color: #fff;
 }
+ 
 
-.button:hover .button__icon--copy {
-  transition: transform 0.3s ease-in-out 0.1s;
-  transform: translate(0);
-}
 
-@keyframes text-rotation {
-  to {
-    rotate: 360deg;
-  }
-}
+
+
+

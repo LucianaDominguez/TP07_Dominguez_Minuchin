@@ -1,91 +1,95 @@
 {
   "Files": [
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\css\\site.css",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\favicon.ico",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\arte.png",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\arte.png",
       "PackagePath": "staticwebassets\\img\\arte.png"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\ciencia.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\ciencia.jpg",
       "PackagePath": "staticwebassets\\img\\ciencia.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\deportes.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\deportes.jpg",
       "PackagePath": "staticwebassets\\img\\deportes.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\entretenimiento.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\entretenimiento.jpg",
       "PackagePath": "staticwebassets\\img\\entretenimiento.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoVictoria.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\fondoIndex.png",
+      "PackagePath": "staticwebassets\\img\\fondoIndex.png"
+    },
+    {
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\fondoVictoria.jpg",
       "PackagePath": "staticwebassets\\img\\fondoVictoria.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\geo.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\geo.jpg",
       "PackagePath": "staticwebassets\\img\\geo.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\historia.jpg",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\img\\historia.jpg",
       "PackagePath": "staticwebassets\\img\\historia.jpg"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\js\\site.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "Z:\\2024\\Prog\\TP07_Dominguez_Minuchin-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
