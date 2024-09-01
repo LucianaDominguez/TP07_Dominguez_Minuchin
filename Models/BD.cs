@@ -35,7 +35,9 @@ DataBase=PreguntadORT;Trusted_Connection=True;";
     }
     public static List<Pregunta> ObtenerPreguntas(int dificultad, int categoria)
     {
+        List<Pregunta> _ListaPreguntas = new List<Pregunta>();
         using (SqlConnection db = new SqlConnection(_connectionString))
+        
         {
             if (dificultad == -1 && categoria == -1)
             {
@@ -66,6 +68,7 @@ DataBase=PreguntadORT;Trusted_Connection=True;";
 
             }
         }
+
         return _ListaPreguntas;
     }
     public static List<Respuesta> ObtenerRespuestas(List<Pregunta> preguntas)
