@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\arte.png",
       "PackagePath": "staticwebassets\\img\\arte.png"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\entretenimiento.jpg",
       "PackagePath": "staticwebassets\\img\\entretenimiento.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoConfig.png",
+      "PackagePath": "staticwebassets\\img\\fondoConfig.png"
     },
     {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-1\\wwwroot\\img\\fondoIndex.png",

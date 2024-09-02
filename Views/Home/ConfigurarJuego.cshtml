@@ -1,8 +1,8 @@
 @{
     ViewData["Title"] = "Configurar Juego";
 }
-<main class = "index">
-<form method="get" action='@Url.Action("Comenzar")'>
+<main class = "config">
+<form method="get" action='@Url.Action("Comenzar")' class="form">
     <div class="form-group">
         <label>Dificultad:</label>
         <div class="form-check">
@@ -57,7 +57,7 @@
 
     <div class="form-group">
         <label for="username">Nombre de Usuario:</label>
-        <input type="text" id="username" name="username" class="form-control" required />
+        <input type="text" placeholder="username" id="username" name="username" class="input" required />
     </div>
 
     <button type="submit" class="btn btn-primary">Jugar</button>
