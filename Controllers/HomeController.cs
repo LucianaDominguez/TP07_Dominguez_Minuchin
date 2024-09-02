@@ -40,6 +40,7 @@ public class HomeController : Controller
     public IActionResult Jugar()
     {
         ViewBag.Usuario = Juego.Username;
+        ViewBag.puntaje = Juego.puntajeActual;
         ViewBag.DatosPreguntaActual = Juego.ObtenerProximaPregunta();
         int nuevoIdPreg = ViewBag.DatosPreguntaActual.IdPregunta;
         if (ViewBag.DatosPreguntaActual == null)

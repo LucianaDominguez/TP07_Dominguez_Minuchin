@@ -2,3 +2,15 @@
     ViewData["Title"] = "Juego";
 }
 <h3>Hola! @ViewBag.Usuario</h3>
+<h3>Puntaje actual: @ViewBag.puntaje</h3>  
+<h3>@ViewBag.DatosPreguntaActual.Enunciado</h3> 
+
+ <form action='@Url.Action("VerificarRespuesta")' method="post">
+    @foreach (Respuesta rta in ViewBag.DatosRespuestas ){
+        <div class="form-check">
+            <input type="radio" id="opcion" name="opcion" value="@rta.Correcta" class="form-check-input" required>
+            <label  class="form-check-label">@rta.Contenido</label>
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Verificar</button>
+ </form>
