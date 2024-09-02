@@ -3,13 +3,13 @@ using Dapper;
 
 public class BD
 {
-    public static List<Categoria> _ListaCategorias;
-    public static List<Dificultad> _ListaDificultades;
-    public static List<Pregunta> _ListaPreguntas;
-    public static List<Respuesta> _ListaRespuestas;
+    public static List<Categoria> _ListaCategorias = new List<Categoria>();
+    public static List<Dificultad> _ListaDificultades = new List<Dificultad>();
+    public static List<Pregunta> _ListaPreguntas = new List<Pregunta>();
+    public static List<Respuesta> _ListaRespuestas = new List<Respuesta>();
     // cambiar a @"Server=localhost para ORT;
     //cambiar a @"Server=LAPTOP-58GA0SUJ\SQLEXPRESS; para compu Lu
-    private static string _connectionString = @"Server=LAPTOP-58GA0SUJ\SQLEXPRESS;
+    private static string _connectionString = @"Server=localhost;
 DataBase=PreguntadORT;Trusted_Connection=True;";
     public static List<Categoria> ObtenerCategorias()
     {

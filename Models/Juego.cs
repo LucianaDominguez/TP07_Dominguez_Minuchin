@@ -1,15 +1,15 @@
 public static class Juego
 {
-    private static string username { get; set; }
+    public static string Username {get; private set; }
     private static int puntajeActual { get; set; }
     private static int cantidadPreguntasCorrectas { get; set; }
-    private static List<Pregunta> preguntas { get; set; }
-    private static List<Respuesta> respuestas { get; set; }
+    private static List<Pregunta> preguntas { get; set; } = new List<Pregunta>() ;
+    private static List<Respuesta> respuestas { get; set; } = new List<Respuesta>(); 
 
 
     public static void InicializarJuego()
     {
-        username = "";
+        Username = "";
         puntajeActual = 0;
         cantidadPreguntasCorrectas = 0;
     }
@@ -28,12 +28,13 @@ public static class Juego
     {
         preguntas = BD.ObtenerPreguntas(dificultad, categoria);
         respuestas = BD.ObtenerRespuestas(preguntas);
+        Username = username;
 
     }
     public static Pregunta ObtenerProximaPregunta()
     {
         Random rd = new Random();
-        int nroRandom = rd.Next(0, (preguntas.Count + 1));
+        int nroRandom = rd.Next(0, (preguntas.Count));
         Pregunta proxPregunta = preguntas[nroRandom];
         return proxPregunta;
     }

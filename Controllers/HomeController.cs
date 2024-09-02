@@ -29,6 +29,7 @@ public class HomeController : Controller
     public IActionResult Comenzar(string username, int dificultad, int categoria)
     {
         Juego.CargarPartida(username, dificultad, categoria);
+        
         if (BD.ObtenerPreguntas(dificultad, categoria) == null)
         {
             return RedirectToAction("ConfigurarJuego");
@@ -38,9 +39,10 @@ public class HomeController : Controller
 
     public IActionResult Jugar()
     {
+        ViewBag.Usuario = Juego.Username;
         ViewBag.DatosPreguntaActual = Juego.ObtenerProximaPregunta();
-        int nuevoIdPreg = ViewBag.DatosPreguntaActual.idPregunta;
-        if (ViewBag.DatosPreguntaActual.Count == 0)
+        int nuevoIdPreg = ViewBag.DatosPreguntaActual.IdPregunta;
+        if (ViewBag.DatosPreguntaActual == null)
         {
             return View("Fin");
         }
