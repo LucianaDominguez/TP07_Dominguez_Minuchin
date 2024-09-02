@@ -65,4 +65,17 @@ public static class Juego
         preguntas.RemoveAt(idPregunta);
         return respuesta;
     }
+
+   /* public static  bool VerificarRespuesta(int idPregunta, int idRespuesta)
+    {
+        bool respuesta = false;
+        if (respuestas[idPregunta].IdRespuesta == idRespuesta)
+        {
+            respuesta = true;
+            puntajeActual += 10;
+            cantidadPreguntasCorrectas += 1;
+        } 
+        preguntas.RemoveAt(idPregunta);
+        return respuesta;
+    } ver verificacion */
 }
