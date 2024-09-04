@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 public static class Juego
 {
-    public static string Username {get; private set; }
+    public static string Username { get; private set; }
     public static int puntajeActual { get; private set; }
     private static int cantidadPreguntasCorrectas { get; set; }
-    private static List<Pregunta> preguntas { get; set; } = new List<Pregunta>() ;
-    private static List<Respuesta> respuestas { get; set; } = new List<Respuesta>(); 
+    private static List<Pregunta> preguntas { get; set; } = new List<Pregunta>();
+    private static List<Respuesta> respuestas { get; set; } = new List<Respuesta>();
 
 
     public static void InicializarJuego()
@@ -39,7 +40,7 @@ public static class Juego
         return proxPregunta;
     }
 
-    public static  List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
+    public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
         List<Respuesta> ProxRespuestas = new List<Respuesta>();
         foreach (Respuesta r in respuestas)
@@ -53,29 +54,28 @@ public static class Juego
         return ProxRespuestas;
 
     }
-    public static  bool VerificarRespuesta(int idPregunta, int idRespuesta)
+    public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
     {
-        bool respuesta = false;
-        if (respuestas[idPregunta].IdRespuesta == idRespuesta)
+        bool rta = respuestas.Find(r => r.IdRespuesta == idRespuesta).Correcta;
+        if(rta)
         {
-            respuesta = true;
             puntajeActual += 10;
-            cantidadPreguntasCorrectas += 1;
-        } 
-        preguntas.RemoveAt(idPregunta);
-        return respuesta;
+            cantidadPreguntasCorrectas++;
+        }
+        preguntas.Remove(preguntas.Find(preg => preg.IdPregunta == idPregunta));
+        return rta;
     }
 
-   /* public static  bool VerificarRespuesta(int idPregunta, int idRespuesta)
-    {
-        bool respuesta = false;
-        if (respuestas[idPregunta].IdRespuesta == idRespuesta)
-        {
-            respuesta = true;
-            puntajeActual += 10;
-            cantidadPreguntasCorrectas += 1;
-        } 
-        preguntas.RemoveAt(idPregunta);
-        return respuesta;
-    } ver verificacion */
+    /* public static  bool VerificarRespuesta(int idPregunta, int idRespuesta)
+     {
+         bool respuesta = false;
+         if (respuestas[idPregunta].IdRespuesta == idRespuesta)
+         {
+             respuesta = true;
+             puntajeActual += 10;
+             cantidadPreguntasCorrectas += 1;
+         } 
+         preguntas.RemoveAt(idPregunta);
+         return respuesta;
+     } ver verificacion */
 }
