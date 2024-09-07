@@ -51,6 +51,27 @@ public class HomeController : Controller
         {
             int nuevoIdPreg = ViewBag.DatosPreguntaActual.IdPregunta;
             ViewBag.DatosRespuestas = Juego.ObtenerProximasRespuestas(nuevoIdPreg);
+            switch (ViewBag.DatosPreguntaActual.IdCategoria)
+        {
+            case 1:
+                ViewBag.fondoCSS = "fondoArte";
+                break;
+            case 2:
+                ViewBag.fondoCSS = "fondoCiencia";
+                break;
+            case 3:
+                ViewBag.fondoCSS = "fondoDeporte";
+                break;
+            case 4:
+                ViewBag.fondoCSS = "fondoEntretenimiento";
+                break;
+            case 5:
+                ViewBag.fondoCSS = "fondoGeografia";
+                break;
+            case 6:
+                ViewBag.fondoCSS = "fondoHistoria";
+                break;
+        }
             return View("Juego");
         }
 
@@ -58,9 +79,11 @@ public class HomeController : Controller
 
     [HttpPost]
     public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
-    {
-        ViewBag.Respuesta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
-        return View("Respuesta");
-
-    }
+{
+    Respuesta respuestaCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
+    ViewBag.RespuestaCorrecta = respuestaCorrecta;
+    ViewBag.EsCorrecta = respuestaCorrecta.IdRespuesta == idRespuesta;
+    
+    return View("Respuesta");
+}
 }

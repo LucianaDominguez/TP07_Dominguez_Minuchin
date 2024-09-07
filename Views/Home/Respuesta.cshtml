@@ -1,13 +1,13 @@
 @{
     ViewData["Title"] = "Respuesta";
 }
-@if(@ViewBag.Respuesta){
+@if(@ViewBag.EsCorrecta){
 
     <h1>CORRECTO!!!!!!!</h1>
-
+    <h2>+10 PUNTOS!!</h2>
 }
 else{
     <h1>INCORRECTO</h1>
-    <h3>Respuesta Correcta: @ViewBag.DatosRespuestas</h3>
+    <h3>La respuesta correcta es: @ViewBag.respuestaCorrecta.Contenido</h3>
 } 
 <button class = "btn"><a href = '@Url.Action("Jugar")'>SIGUIENTE PREGUNTA!!</a></button>

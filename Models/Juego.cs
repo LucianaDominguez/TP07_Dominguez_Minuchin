@@ -44,6 +44,7 @@ public static class Juego
         {
             int nroRandom = rd.Next(0, (preguntas.Count));
             proxPregunta = preguntas[nroRandom];
+
         }
 
         return proxPregunta;
@@ -63,28 +64,26 @@ public static class Juego
         return ProxRespuestas;
 
     }
-    public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
+    public static Respuesta VerificarRespuesta(int idPregunta, int idRespuesta)
     {
-        bool rta = respuestas.Find(r => r.IdRespuesta == idRespuesta).Correcta;
+
+        Respuesta respuestaSeleccionada = respuestas.Find(r => r.IdRespuesta == idRespuesta);
+
+        bool rta = respuestaSeleccionada.Correcta;
+
         if (rta)
         {
             puntajeActual += 10;
             cantidadPreguntasCorrectas++;
         }
+
+        Respuesta respuestaCorrecta = respuestas.Find(r => r.IdPregunta == idPregunta && r.Correcta == true);
+
         preguntas.Remove(preguntas.Find(preg => preg.IdPregunta == idPregunta));
-        return rta;
+
+        return respuestaCorrecta;
     }
 
-    /* public static  bool VerificarRespuesta(int idPregunta, int idRespuesta)
-     {
-         bool respuesta = false;
-         if (respuestas[idPregunta].IdRespuesta == idRespuesta)
-         {
-             respuesta = true;
-             puntajeActual += 10;
-             cantidadPreguntasCorrectas += 1;
-         } 
-         preguntas.RemoveAt(idPregunta);
-         return respuesta;
-     } ver verificacion */
+
+
 }

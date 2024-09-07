@@ -1,17 +1,21 @@
 @{
     ViewData["Title"] = "Juego";
 }
-<h3>Hola! @ViewBag.Usuario</h3>
-<h3>Puntaje actual: @ViewBag.puntaje</h3>  
-<h3>@ViewBag.DatosPreguntaActual.Enunciado</h3> 
+<main class = "@ViewBag.fondoCSS">
+    <h3>Hola! @ViewBag.Usuario</h3>
+    <h3>Puntaje actual: @ViewBag.puntaje</h3>
+    <h3>@ViewBag.DatosPreguntaActual.Enunciado</h3>
 
-<form action='@Url.Action("VerificarRespuesta")' method="post">
-    @foreach (Respuesta rta in ViewBag.DatosRespuestas) {
-        <div class="form-check">
-            <input type="radio" id="respuesta_@rta.IdRespuesta" name="idRespuesta" value="@rta.IdRespuesta" class="form-check-input" required>
-            <label for="respuesta_@rta.IdRespuesta" class="form-check-label">@rta.Contenido</label>
-        </div>
-    }
-    <input type="hidden" name="idPregunta" value="@ViewBag.DatosPreguntaActual.IdPregunta" />
-    <button type="submit" class="btn btn-primary">Verificar</button>
-</form>
+    <form action='@Url.Action("VerificarRespuesta")' method="post">
+        @foreach (Respuesta rta in ViewBag.DatosRespuestas)
+        {
+            <div class="form-check">
+                <input type="radio" id="respuesta_@rta.IdRespuesta" name="idRespuesta" value="@rta.IdRespuesta"
+                    class="form-check-input" required>
+                <label for="respuesta_@rta.IdRespuesta" class="form-check-label">@rta.Contenido</label>
+            </div>
+        }
+        <input type="hidden" name="idPregunta" value="@ViewBag.DatosPreguntaActual.IdPregunta" />
+        <button type="submit" class="btn btn-primary">Verificar</button>
+    </form>
+</main>

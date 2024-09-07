@@ -16,17 +16,37 @@ html {
   border-top: 1px solid #e9ecef;
 }*/
 
-.index{
-  background-image: url(../img/fondoIndex.png);
+.index, .config, .fondoArte, .fondoCiencia, .fondoDeporte, .fondoEntretenimiento, .fondoGeografia, .fondoHistoria, .fondoFin{
   min-height: 100vh;
   background-size: cover;
+}
+.index{
+  background-image: url(../img/fondoIndex.png);
 }
 .config{
   background-image: url(../img/fondoConfig.png);
-  min-height: 100vh;
-  background-size: cover;
 }
-
+.fondoArte{
+  background-image: url(../img/arte.png);
+}
+.fondoCiencia{
+  background-image: url(../img/ciencia.jpg);
+}
+.fondoDeporte{
+  background-image: url(../img/deportes.jpg);
+}
+.fondoEntretenimiento{
+  background-image: url(../img/entretenimiento.jpg);
+}
+.fondoGeografia{
+  background-image: url(../img/geo.jpg);
+}
+.fondoHistoria{
+  background-image: url(../img/historia.jpg);
+}
+.fondoFin{
+  background-image: url(../img/fondoVictoria.jpg);
+}
 
 html, body {
   height: 100%;
