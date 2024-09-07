@@ -34,9 +34,18 @@ public static class Juego
     }
     public static Pregunta ObtenerProximaPregunta()
     {
+        Pregunta proxPregunta;
         Random rd = new Random();
-        int nroRandom = rd.Next(0, (preguntas.Count));
-        Pregunta proxPregunta = preguntas[nroRandom];
+        if (preguntas.Count == 0)
+        {
+            proxPregunta = null;
+        }
+        else
+        {
+            int nroRandom = rd.Next(0, (preguntas.Count));
+            proxPregunta = preguntas[nroRandom];
+        }
+
         return proxPregunta;
     }
 
@@ -57,7 +66,7 @@ public static class Juego
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
     {
         bool rta = respuestas.Find(r => r.IdRespuesta == idRespuesta).Correcta;
-        if(rta)
+        if (rta)
         {
             puntajeActual += 10;
             cantidadPreguntasCorrectas++;

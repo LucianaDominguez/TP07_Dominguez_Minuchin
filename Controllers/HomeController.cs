@@ -42,13 +42,14 @@ public class HomeController : Controller
         ViewBag.Usuario = Juego.Username;
         ViewBag.puntaje = Juego.puntajeActual;
         ViewBag.DatosPreguntaActual = Juego.ObtenerProximaPregunta();
-        int nuevoIdPreg = ViewBag.DatosPreguntaActual.IdPregunta;
+        
         if (ViewBag.DatosPreguntaActual == null)
         {
             return View("Fin");
         }
         else
         {
+            int nuevoIdPreg = ViewBag.DatosPreguntaActual.IdPregunta;
             ViewBag.DatosRespuestas = Juego.ObtenerProximasRespuestas(nuevoIdPreg);
             return View("Juego");
         }
