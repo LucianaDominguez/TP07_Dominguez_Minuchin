@@ -7,6 +7,7 @@
     <h3>@ViewBag.DatosPreguntaActual.Enunciado</h3>
 
     <form action='@Url.Action("VerificarRespuesta")' method="post">
+        <img src="@ViewBag.DatosPreguntaActual.Foto">
         @foreach (Respuesta rta in ViewBag.DatosRespuestas)
         {
             <div class="form-check">
