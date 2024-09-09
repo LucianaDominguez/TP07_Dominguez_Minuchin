@@ -2,11 +2,14 @@
     ViewData["Title"] = "Juego";
 }
 <main class = "@ViewBag.fondoCSS">
-    <h3>Hola! @ViewBag.Usuario</h3>
-    <h3>Puntaje actual: @ViewBag.puntaje</h3>
-    <h3>@ViewBag.DatosPreguntaActual.Enunciado</h3>
+    <div class= "jugar">
+        <h3>Hola! @ViewBag.Usuario</h3>
+        <h3>Puntaje actual: @ViewBag.puntaje</h3>
+    </div>
+    
+    <h3 class = "formJugar">@ViewBag.DatosPreguntaActual.Enunciado</h3>
 
-    <form action='@Url.Action("VerificarRespuesta")' method="post">
+    <form action='@Url.Action("VerificarRespuesta")' method="post" class="formJugar">
         <img src="@ViewBag.DatosPreguntaActual.Foto">
         @foreach (Respuesta rta in ViewBag.DatosRespuestas)
         {
