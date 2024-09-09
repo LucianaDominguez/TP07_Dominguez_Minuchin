@@ -83,6 +83,13 @@ public class HomeController : Controller
     Respuesta respuestaCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
     ViewBag.RespuestaCorrecta = respuestaCorrecta;
     ViewBag.EsCorrecta = respuestaCorrecta.IdRespuesta == idRespuesta;
+    if(ViewBag.EsCorrecta){
+        ViewBag.fondoRta = "correcta";
+    }
+    else
+    {
+      ViewBag.fondoRta = "incorrecta";  
+    }
     
     return View("Respuesta");
 }

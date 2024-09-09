@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\Super_Carnival.ttf",
+      "PackagePath": "staticwebassets\\Super_Carnival.ttf"
+    },
+    {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -33,6 +37,14 @@
       "PackagePath": "staticwebassets\\img\\fondoConfig.png"
     },
     {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoCorrecto.jpg",
+      "PackagePath": "staticwebassets\\img\\fondoCorrecto.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIncorrecto.webp",
+      "PackagePath": "staticwebassets\\img\\fondoIncorrecto.webp"
+    },
+    {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIndex.png",
       "PackagePath": "staticwebassets\\img\\fondoIndex.png"
     },
@@ -47,6 +59,10 @@
     {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\historia.jpg",
       "PackagePath": "staticwebassets\\img\\historia.jpg"
+    },
+    {
+      "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\rtaCorrecta.png",
+      "PackagePath": "staticwebassets\\img\\rtaCorrecta.png"
     },
     {
       "Id": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\js\\site.js",

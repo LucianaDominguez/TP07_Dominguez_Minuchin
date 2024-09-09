@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CWbeEKqsv+Yc6ThFPKt20MXTEKI8ibEe6EGRNc7DeQE=",
+  "Hash": "lqAXeTWT/Gm4d8Bkt0wI7VKwViWeNQ+LvZzmEQuBwEY=",
   "Source": "TP07_Dominguez_Minuchin",
   "BasePath": "_content/TP07_Dominguez_Minuchin",
   "Mode": "Default",
@@ -150,6 +150,44 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoConfig.png"
     },
     {
+      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoCorrecto.jpg",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "img/fondoCorrecto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fondoCorrecto.jpg"
+    },
+    {
+      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIncorrecto.webp",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "img/fondoIncorrecto.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fondoIncorrecto.webp"
+    },
+    {
       "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIndex.png",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
@@ -224,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\historia.jpg"
+    },
+    {
+      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\rtaCorrecta.png",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "img/rtaCorrecta.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rtaCorrecta.png"
     },
     {
       "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\Thumbs.db",
@@ -490,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\Super_Carnival.ttf",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "Super_Carnival.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Super_Carnival.ttf"
     }
   ]
 }
