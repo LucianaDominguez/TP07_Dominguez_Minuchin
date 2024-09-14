@@ -9,7 +9,7 @@ public class BD
     public static List<Respuesta> _ListaRespuestas = new List<Respuesta>();
     // cambiar a @"Server=localhost para ORT;
     //cambiar a @"Server=LAPTOP-58GA0SUJ\SQLEXPRESS; para compu Lu
-    private static string _connectionString = @"Server=localhost;
+    private static string _connectionString = @"Server=LAPTOP-58GA0SUJ\SQLEXPRESS;
 DataBase=PreguntadORT;Trusted_Connection=True;";
     public static List<Categoria> ObtenerCategorias()
     {

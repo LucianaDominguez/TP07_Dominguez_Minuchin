@@ -31,16 +31,16 @@ html {
   background-image: url(../img/arte.png);
 }
 .fondoCiencia{
-  background-image: url(../img/ciencia.jpg);
+  background-image: url(../img/ciencia.jpeg);
 }
 .fondoDeporte{
-  background-image: url(../img/deportes.jpg);
+  background-image: url(../img/deportes.jpeg);
 }
 .fondoEntretenimiento{
-  background-image: url(../img/entretenimiento.jpg);
+  background-image: url(../img/entretenimiento.jpeg);
 }
 .fondoGeografia{
-  background-image: url(../img/geo.jpg);
+  background-image: url(../img/geo.jpeg);
 }
 .fondoHistoria{
   background-image: url(../img/historia.jpg);
@@ -215,10 +215,15 @@ html, body {
 }
 .jugar{
   display: flex;
-  justify-content: flex-end !important;
+  text-align: end;
+  font-size: 120%;
   flex-direction: column;
   margin-right: 5%; 
   color:whitesmoke; 
+}
+.jugar h3
+{
+  margin-bottom: 0%;
 }
 
 .correcta
@@ -229,7 +234,7 @@ html, body {
 
 .incorrecta
 {
-  background-image: url(../img/fondoIncorrecto.webp);
+  background-image: url(../img/fondoIncorrecto.jpg);
 
 }
 
@@ -237,15 +242,26 @@ html, body {
   color:whitesmoke;
 }
 
+.respuesta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.respuesta img{
+  width: 40%;
+  height: auto;
+}
+
 .imgPregunta{
   width: 100%;
   height: auto;
 }
 .imgPregunta img{
-  width: 30%;
+  width: 25%;
   height:auto;
 } 
-/* From Uiverse.io by Pradeepsaranbishnoi */ 
+/*Opciones de las preguntas */ 
 .Radio input[type="radio"] {
   position: absolute;
   left: -100px;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lqAXeTWT/Gm4d8Bkt0wI7VKwViWeNQ+LvZzmEQuBwEY=",
+  "Hash": "zCUl4jjAyboIt4Xgo46YXN0GnKQTIpww5DghHwSE7xU=",
   "Source": "TP07_Dominguez_Minuchin",
   "BasePath": "_content/TP07_Dominguez_Minuchin",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TP07_Dominguez_Minuchin\\wwwroot",
       "Source": "TP07_Dominguez_Minuchin",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\css\\site.css",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\favicon.ico",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\arte.png",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\arte.png",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/arte.png",
       "AssetKind": "All",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\img\\arte.png"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\ciencia.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\ciencia.jpeg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
-      "RelativePath": "img/ciencia.jpg",
+      "RelativePath": "img/ciencia.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\ciencia.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\ciencia.jpeg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\deportes.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\deportes.jpeg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
-      "RelativePath": "img/deportes.jpg",
+      "RelativePath": "img/deportes.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\deportes.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\deportes.jpeg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\entretenimiento.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\entretenimiento.jpeg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
-      "RelativePath": "img/entretenimiento.jpg",
+      "RelativePath": "img/entretenimiento.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\entretenimiento.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\entretenimiento.jpeg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoConfig.png",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\fondoConfig.png",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/fondoConfig.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoConfig.png"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoCorrecto.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\fondoCorrecto.jpg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/fondoCorrecto.jpg",
       "AssetKind": "All",
@@ -169,12 +169,12 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoCorrecto.jpg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIncorrecto.webp",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\fondoIncorrecto.jpg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
-      "RelativePath": "img/fondoIncorrecto.webp",
+      "RelativePath": "img/fondoIncorrecto.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\fondoIncorrecto.webp"
+      "OriginalItemSpec": "wwwroot\\img\\fondoIncorrecto.jpg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoIndex.png",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\fondoIndex.png",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/fondoIndex.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoIndex.png"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\fondoVictoria.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\fondoVictoria.jpg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/fondoVictoria.jpg",
       "AssetKind": "All",
@@ -226,12 +226,12 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoVictoria.jpg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\geo.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\geo.jpeg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
-      "RelativePath": "img/geo.jpg",
+      "RelativePath": "img/geo.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\geo.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\geo.jpeg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\historia.jpg",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\historia.jpg",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/historia.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\historia.jpg"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\rtaCorrecta.png",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\rtaCorrecta.png",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/rtaCorrecta.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\rtaCorrecta.png"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\img\\Thumbs.db",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\img\\Thumbs.db",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "img/Thumbs.db",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\js\\site.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\Super_Carnival.ttf",
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\Super_Carnival.ttf",
       "SourceId": "TP07_Dominguez_Minuchin",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2024\\TP07_Dominguez_Minuchin-3\\wwwroot\\",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
       "BasePath": "_content/TP07_Dominguez_Minuchin",
       "RelativePath": "Super_Carnival.ttf",
       "AssetKind": "All",
