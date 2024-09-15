@@ -2,6 +2,10 @@
     ViewData["Title"] = "Fin";
 }
 <main class="fondoFin">
+    <audio autoplay>
+            <source src="@Url.Content("~/musicavictoria.mp3")" type="audio/mpeg">
+        </audio>
+    
     <h1>Felicitaciones @ViewBag.Usuario !!!</h1>
     <h2>Tu puntaje final es: @ViewBag.puntaje</h2>
     <button class="btn botonIndex"><a href='@Url.Action("ConfigurarJuego")'>Volver a Jugar</a></button>

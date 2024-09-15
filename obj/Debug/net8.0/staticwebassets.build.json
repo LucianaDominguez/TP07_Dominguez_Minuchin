@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zCUl4jjAyboIt4Xgo46YXN0GnKQTIpww5DghHwSE7xU=",
+  "Hash": "c9DWO2XAysAXNSoLxz6NUDmG3WLH9HpflaiAiQXohVo=",
   "Source": "TP07_Dominguez_Minuchin",
   "BasePath": "_content/TP07_Dominguez_Minuchin",
   "Mode": "Default",
@@ -547,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\musicavictoria.mp3",
+      "SourceId": "TP07_Dominguez_Minuchin",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\",
+      "BasePath": "_content/TP07_Dominguez_Minuchin",
+      "RelativePath": "musicavictoria.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\musicavictoria.mp3"
     },
     {
       "Identity": "D:\\Luly\\INFO 2024\\TP07_Dominguez_Minuchin-2\\wwwroot\\Super_Carnival.ttf",

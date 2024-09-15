@@ -25,7 +25,7 @@ html {
   background-image: url(../img/fondoIndex.png);
 }
 .config{
-  background-image: url(../img/fondoConfig.png);
+  background-image: url(../img/fondoCorrecto.jpg);
 }
 .fondoArte{
   background-image: url(../img/arte.png);
@@ -47,8 +47,21 @@ html {
 }
 .fondoFin{
   background-image: url(../img/fondoVictoria.jpg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-
+.fondoFin button{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+.fondoFin h2{
+  margin-top: 0%;
+}
 html, body {
   height: 100%;
   margin: 0;
@@ -152,7 +165,6 @@ html, body {
   flex-direction: row;
   box-shadow: 4px 4px var(--main-color);
   width: 100%; 
-  max-width: 100%; 
   height: auto;
   box-sizing: border-box; 
   margin-bottom: 10px;
@@ -161,7 +173,7 @@ html, body {
 .wrapper1 {
   width: 100%;
   height: 10%;
-  font-size: 120%;
+  font-size: 110%;
 }
 .formContainer .input1{
   width: 60%;
