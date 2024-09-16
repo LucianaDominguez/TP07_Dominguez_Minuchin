@@ -264,3 +264,41 @@ D:\Luly\INFO 2024\TP07_Dominguez_Minuchin-2\obj\Debug\net8.0\refint\TP07_Domingu
 D:\Luly\INFO 2024\TP07_Dominguez_Minuchin-2\obj\Debug\net8.0\TP07_Dominguez_Minuchin.pdb
 D:\Luly\INFO 2024\TP07_Dominguez_Minuchin-2\obj\Debug\net8.0\TP07_Dominguez_Minuchin.genruntimeconfig.cache
 D:\Luly\INFO 2024\TP07_Dominguez_Minuchin-2\obj\Debug\net8.0\ref\TP07_Dominguez_Minuchin.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\appsettings.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.staticwebassets.runtime.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.exe
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.deps.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.runtimeconfig.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\TP07_Dominguez_Minuchin.pdb
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\Dapper.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.csproj.AssemblyReference.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.AssemblyInfoInputs.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.AssemblyInfo.cs
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.csproj.CoreCompileInputs.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.RazorAssemblyInfo.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.RazorAssemblyInfo.cs
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.sourcelink.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets\msbuild.TP07_Dominguez_Minuchin.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets\msbuild.build.TP07_Dominguez_Minuchin.props
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP07_Dominguez_Minuchin.props
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP07_Dominguez_Minuchin.props
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\scopedcss\bundle\TP07_Dominguez_Minuchin.styles.css
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dom.4CB7A490.Up2Date
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\refint\TP07_Dominguez_Minuchin.dll
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.pdb
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\TP07_Dominguez_Minuchin.genruntimeconfig.cache
+C:\Users\48039458\Downloads\TP07_Dominguez_Minuchin\obj\Debug\net8.0\ref\TP07_Dominguez_Minuchin.dll
